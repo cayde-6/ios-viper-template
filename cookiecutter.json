@@ -1,0 +1,32 @@
+{
+  "project_name": "iOSApp",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '').replace('-', '') }}",
+  "organization_name": "Your Organization",
+  "author_name": "Your Name",
+  "bundle_identifier": "com.{{ cookiecutter.organization_name.lower().replace(' ', '').replace('-', '') }}.{{ cookiecutter.project_slug }}",
+  "ios_deployment_target": ["18.0", "17.0", "16.0", "15.0"],
+  "swift_version": ["6.0", "5.10", "5.9"],
+  "include_swiftui_previews": ["yes", "no"],
+  "include_tests": ["yes", "no"],
+  "include_ui_tests": ["yes", "no"],
+  "include_claude_agents": ["yes", "no"],
+  "include_viper_example_module": ["yes", "no"],
+  "initial_modules": {
+    "home": ["yes", "no"],
+    "settings": ["yes", "no"],
+    "profile": ["yes", "no"]
+  },
+  "architecture_features": {
+    "include_network_layer": ["yes", "no"],
+    "include_core_data": ["yes", "no"],
+    "include_keychain_wrapper": ["yes", "no"]
+  },
+  "ios_frameworks": {
+    "include_storekit": ["yes", "no"],
+    "include_mapkit": ["yes", "no"],
+    "include_healthkit": ["yes", "no"]
+  },
+  "use_swiftui": ["yes", "no"],
+  "use_uikit": ["yes", "no"],
+  "project_description": "A modern iOS application with VIPER architecture"
+}
