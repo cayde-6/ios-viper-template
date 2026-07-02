@@ -1,6 +1,6 @@
 # ⚡ Quick Start Guide
 
-Get up and running with Swift Module Template in 5 minutes.
+Get up and running with iOS VIPER Template in 5 minutes.
 
 ## Prerequisites Check
 
@@ -18,7 +18,7 @@ pip install cookiecutter
 ## Step 1: Generate Project (1 min)
 
 ```bash
-cookiecutter gh:cayde-6/swift-module-template
+cookiecutter gh:cayde-6/ios-viper-template
 ```
 
 Answer the prompts:
@@ -200,7 +200,7 @@ rm -rf ~/Library/Developer/Xcode/DerivedData
 pip install --upgrade cookiecutter
 
 # Retry with verbose output
-cookiecutter gh:cayde-6/swift-module-template --verbose
+cookiecutter gh:cayde-6/ios-viper-template --verbose
 ```
 
 ## Learning Resources
@@ -231,7 +231,7 @@ Check out these examples for inspiration:
 
 ### Minimal SwiftUI App
 ```bash
-cookiecutter gh:cayde-6/swift-module-template --no-input \
+cookiecutter gh:cayde-6/ios-viper-template --no-input \
   project_name="MinimalApp" \
   use_swiftui="yes" \
   use_uikit="no" \
@@ -241,7 +241,7 @@ cookiecutter gh:cayde-6/swift-module-template --no-input \
 
 ### Full-Featured App
 ```bash
-cookiecutter gh:cayde-6/swift-module-template --no-input \
+cookiecutter gh:cayde-6/ios-viper-template --no-input \
   project_name="FullApp" \
   ios_deployment_target="17.0" \
   swift_version="6.0" \
@@ -270,8 +270,8 @@ Essential shortcuts to know:
 ## Need Help?
 
 - **Documentation**: Read [README.md](README.md) and [USAGE.md](USAGE.md)
-- **Issues**: [GitHub Issues](https://github.com/cayde-6/swift-module-template/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/cayde-6/swift-module-template/discussions)
+- **Issues**: [GitHub Issues](https://github.com/cayde-6/ios-viper-template/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/cayde-6/ios-viper-template/discussions)
 
 ## What's Next?
 

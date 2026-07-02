@@ -1,4 +1,4 @@
-# 📱 Swift Module Template
+# 🚗 iOS VIPER Template
 
 A modern, production-ready iOS application template built with **VIPER architecture**, **Swift 6**, and **Claude Code integration**.
 
@@ -51,7 +51,7 @@ Pre-configured with 7 specialized AI agents:
 ### 1. Generate Your Project
 
 ```bash
-cookiecutter gh:cayde-6/swift-module-template
+cookiecutter gh:cayde-6/ios-viper-template
 ```
 
 Or from local clone:
@@ -363,8 +363,8 @@ This template is available under the MIT License.
 
 ## 💬 Support
 
-- **Issues**: [GitHub Issues](https://github.com/cayde-6/swift-module-template/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/cayde-6/swift-module-template/discussions)
+- **Issues**: [GitHub Issues](https://github.com/cayde-6/ios-viper-template/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/cayde-6/ios-viper-template/discussions)
 
 ## 🙏 Acknowledgments
 

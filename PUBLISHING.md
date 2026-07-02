@@ -1,4 +1,4 @@
-# Publishing Swift Module Template to GitHub
+# Publishing iOS VIPER Template to GitHub
 
 Complete guide for publishing this Cookiecutter template to GitHub.
 
@@ -42,8 +42,8 @@ open TestiOSApp.xcodeproj
 ### 3. Choose Repository Name
 
 Recommended names:
-- `swift-module-template`
-- `swift-module-template`
+- `ios-viper-template`
+- `ios-viper-template`
 - `swift-project-template`
 - Custom name that reflects your template
 
@@ -53,12 +53,12 @@ Recommended names:
 
 ```bash
 # Option A: Using gh CLI (recommended)
-gh repo create swift-module-template --public \
+gh repo create ios-viper-template --public \
   --description "Modern iOS application template with VIPER architecture and Claude Code integration"
 
 # Option B: Via GitHub website
 # Go to https://github.com/new
-# Name: swift-module-template
+# Name: ios-viper-template
 # Description: Modern iOS application template with VIPER architecture and Claude Code integration
 # Visibility: Public
 # Don't initialize with README (we have one)
@@ -76,7 +76,7 @@ git init
 git add .
 
 # Make initial commit
-git commit -m "Initial commit: Swift Module Template with VIPER architecture
+git commit -m "Initial commit: iOS VIPER Template with VIPER architecture
 
 - Cookiecutter template for iOS projects
 - VIPER architecture pattern
@@ -90,10 +90,10 @@ git commit -m "Initial commit: Swift Module Template with VIPER architecture
 
 ```bash
 # Add remote (replace YOUR_USERNAME)
-git remote add origin git@github.com:YOUR_USERNAME/swift-module-template.git
+git remote add origin git@github.com:YOUR_USERNAME/ios-viper-template.git
 
 # Or use HTTPS
-git remote add origin https://github.com/YOUR_USERNAME/swift-module-template.git
+git remote add origin https://github.com/YOUR_USERNAME/ios-viper-template.git
 
 # Push to main branch
 git branch -M main
@@ -146,7 +146,7 @@ git push origin --tags
 # Create release on GitHub
 gh release create v1.0.0 \
   --title "v1.0.0 - Initial Release" \
-  --notes "First stable release of Swift Module Template"
+  --notes "First stable release of iOS VIPER Template"
 ```
 
 ### Step 6: Test Public Access
@@ -154,7 +154,7 @@ gh release create v1.0.0 \
 ```bash
 # Test from different directory
 cd ~
-cookiecutter gh:YOUR_USERNAME/swift-module-template
+cookiecutter gh:YOUR_USERNAME/ios-viper-template
 
 # Verify it works
 cd iOSApp
@@ -169,7 +169,7 @@ open iOSApp.xcodeproj
 Add to top of `README.md`:
 
 ```markdown
-[![GitHub release](https://img.shields.io/github/release/YOUR_USERNAME/swift-module-template.svg)](https://github.com/YOUR_USERNAME/swift-module-template/releases)
+[![GitHub release](https://img.shields.io/github/release/YOUR_USERNAME/ios-viper-template.svg)](https://github.com/YOUR_USERNAME/ios-viper-template/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-15.0+-green.svg)](https://developer.apple.com/ios/)
@@ -187,8 +187,8 @@ cat > index.html << 'EOF'
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Swift Module Template</title>
-    <meta http-equiv="refresh" content="0; url=https://github.com/YOUR_USERNAME/swift-module-template">
+    <title>iOS VIPER Template</title>
+    <meta http-equiv="refresh" content="0; url=https://github.com/YOUR_USERNAME/ios-viper-template">
 </head>
 <body>
     Redirecting to GitHub repository...
@@ -241,7 +241,7 @@ cd docs
 # Create _config.yml
 cat > _config.yml << 'EOF'
 theme: jekyll-theme-cayman
-title: Swift Module Template
+title: iOS VIPER Template
 description: Modern iOS application template with VIPER architecture
 EOF
 
@@ -317,7 +317,7 @@ Track template usage:
 
 1. **Write Blog Posts**
    - "Building iOS Apps with VIPER"
-   - "Getting Started with Swift Module Template"
+   - "Getting Started with iOS VIPER Template"
    - "Claude Code Integration Guide"
 
 2. **Create Video Tutorials**
@@ -383,5 +383,5 @@ Your template is now public and ready for the iOS community!
 
 ---
 
-**Template Repository**: https://github.com/YOUR_USERNAME/swift-module-template
+**Template Repository**: https://github.com/YOUR_USERNAME/ios-viper-template
 **Generated Projects**: Will use this template to build amazing iOS apps!

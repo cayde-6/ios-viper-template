@@ -5,7 +5,7 @@
 ### Generate a Simple Project
 
 ```bash
-cookiecutter gh:cayde-6/swift-module-template
+cookiecutter gh:cayde-6/ios-viper-template
 ```
 
 Answer the prompts with default values or customize as needed.
@@ -36,13 +36,13 @@ default_context:
 Then run:
 
 ```bash
-cookiecutter gh:cayde-6/swift-module-template --config-file my-project.yaml --no-input
+cookiecutter gh:cayde-6/ios-viper-template --config-file my-project.yaml --no-input
 ```
 
 ### Override Single Values
 
 ```bash
-cookiecutter gh:cayde-6/swift-module-template \
+cookiecutter gh:cayde-6/ios-viper-template \
   project_name="CoolApp" \
   ios_deployment_target="16.0"
 ```
@@ -51,10 +51,10 @@ cookiecutter gh:cayde-6/swift-module-template \
 
 ```bash
 # Use specific branch
-cookiecutter gh:cayde-6/swift-module-template --checkout develop
+cookiecutter gh:cayde-6/ios-viper-template --checkout develop
 
 # Use specific tag
-cookiecutter gh:cayde-6/swift-module-template --checkout v1.0.0
+cookiecutter gh:cayde-6/ios-viper-template --checkout v1.0.0
 ```
 
 ## Common Scenarios

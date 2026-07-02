@@ -1,6 +1,6 @@
-# Contributing to Swift Module Template
+# Contributing to iOS VIPER Template
 
-Thank you for your interest in contributing to the Swift Module Template! This document provides guidelines for contributing to this project.
+Thank you for your interest in contributing to the iOS VIPER Template! This document provides guidelines for contributing to this project.
 
 ## 🎯 Ways to Contribute
 
@@ -17,8 +17,8 @@ Thank you for your interest in contributing to the Swift Module Template! This d
 
 ```bash
 # Fork the repository on GitHub
-git clone https://github.com/YOUR_USERNAME/swift-module-template.git
-cd swift-module-template
+git clone https://github.com/YOUR_USERNAME/ios-viper-template.git
+cd ios-viper-template
 ```
 
 ### 2. Create a Branch
@@ -38,7 +38,7 @@ Follow the guidelines below for your type of contribution.
 ### Project Structure
 
 ```
-swift-module-template/
+ios-viper-template/
 ├── cookiecutter.json           # Template configuration
 ├── hooks/
 │   ├── pre_gen_project.py     # Validation
@@ -209,10 +209,10 @@ Brief description of the feature.
 
 ```bash
 # From parent directory
-cookiecutter swift-module-template/
+cookiecutter ios-viper-template/
 
 # Or with specific config
-cookiecutter swift-module-template/ --no-input \
+cookiecutter ios-viper-template/ --no-input \
   project_name="TestApp" \
   ios_deployment_target="17.0"
 ```
@@ -294,7 +294,7 @@ Use [Conventional Commits](https://www.conventionalcommits.org/):
 
 ### Before Submitting
 
-1. Check [existing issues](https://github.com/cayde-6/swift-module-template/issues)
+1. Check [existing issues](https://github.com/cayde-6/ios-viper-template/issues)
 2. Test with latest version
 3. Verify it's not a configuration issue
 
